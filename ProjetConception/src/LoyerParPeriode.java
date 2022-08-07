@@ -1,4 +1,4 @@
 
-public class LoyerParPeriode {
+public class LoyerParPeriode extends PeriodeLocation {
 
 }

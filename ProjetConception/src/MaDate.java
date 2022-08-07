@@ -1,6 +1,17 @@
 
 public class MaDate {
 	
+	public MaDate() {
+		super();
+	}
+
+	public MaDate(int jour, int mois, int annee) {
+		super();
+		this.jour = jour;
+		this.mois = mois;
+		this.annee = annee;
+	}
+
 	private int jour, mois, annee;
 
 	public int getJour() {
@@ -25,6 +36,10 @@ public class MaDate {
 
 	public void setAnnee(int annee) {
 		this.annee = annee;
+	}
+	
+	public String afficheDate() {
+		return jour+"/"+mois+"/"+annee;
 	}
 	
 	

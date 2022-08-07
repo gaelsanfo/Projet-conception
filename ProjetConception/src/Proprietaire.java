@@ -1,6 +1,17 @@
 
 public class Proprietaire {
 	
+	public Proprietaire() {
+		
+	}
+	
+	public Proprietaire(String nom, String numeroTelephone, String adresseCouriel) {
+		super();
+		this.nom = nom;
+		this.numeroTelephone = numeroTelephone;
+		this.adresseCouriel = adresseCouriel;
+	}
+
 	private String nom,numeroTelephone,adresseCouriel;
 
 	public String getNom() {
